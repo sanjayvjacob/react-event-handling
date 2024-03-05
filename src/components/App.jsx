@@ -9,7 +9,7 @@ function App() {
   function handleClick(event){
     setHeading(name);
     setName("");
-    event.preventDefault();
+    event.preventDefault(); {/* Add to prevent the page from refreshing after submitting */}
   }
 
   function handleChange(event){
@@ -26,8 +26,8 @@ function App() {
 
   return (
     <div className="container">
-      <h1>"Hello" {heading}</h1>
-      <form onSubmit={handleClick} >
+      <h1>Hello {heading}</h1>
+      <form onSubmit={handleClick} > {/* Here onClick is replaced with onSubmit */}
       <input 
       onChange={handleChange}
       type="text" 
@@ -35,7 +35,7 @@ function App() {
       value={name}
       />
       <button 
-      type="submit"
+      type="submit" /* Added type as a part of form  */
       style={{backgroundColor: isMousedOver ? "black":"white"}}
       onMouseOver={handleMouseOver} 
       onMouseOut={handleMouseOut} 
