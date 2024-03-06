@@ -9,7 +9,7 @@ function App() {
   function handleClick(event){
     setHeading(name);
     setName("");
-    event.preventDefault(); {/* Add to prevent the page from refreshing after submitting */}
+    event.preventDefault(); {/* Prevents the page from refreshing */}
   }
 
   function handleChange(event){

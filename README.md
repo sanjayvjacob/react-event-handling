@@ -1,6 +1,6 @@
 # Appbrewery - React Event Handling Solution
 
-This is a solution to the TinDog Startup Website Project from Appbrewery.com
+This is a React Project from Appbrewery.com for leaning event handling in react
 
 ## Table of contents
 
@@ -18,8 +18,8 @@ This is a solution to the TinDog Startup Website Project from Appbrewery.com
 
 Users should be able to:
 
-- View the optimal layout depending on their device's screen size
-- See hover and focus states for interactive elements
+- Build interactive forms
+- Use different mouse functions
 
 ### Screenshot
 
@@ -31,11 +31,12 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Bootstrap
+- JavaScript
+- React
 
 ### What I learned
 
-Using Bootstrap components, snippets to build websites easily
+Using React components to build interactive forms
 
 ## Author
 
